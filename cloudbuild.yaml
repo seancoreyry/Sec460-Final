@@ -1,10 +1,10 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/sec-460-devsecops/Sec460-Final', '.']
+    args: ['build', '-t', 'gcr.io/sec-460-devsecops/streamlit-app', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/sec-460-devsecops/Sec460-Final']
+    args: ['push', 'gcr.io/sec-460-devsecops/streamlit-app']
 
 images:
-  - 'gcr.io/sec-460-devsecops/Sec460-Final'
+  - 'gcr.io/sec-460-devsecops/streamlit-app'
 options:
   logging: CLOUD_LOGGING_ONLY
