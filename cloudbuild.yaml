@@ -6,3 +6,5 @@ steps:
 
 images:
   - 'gcr.io/sec-460-devsecops/streamlit-app'
+options:
+  logging: CLOUD_LOGGING_ONLY
