@@ -11,4 +11,4 @@ st.set_page_config(
         }
 )
 st.sidebar.title('Home Page')
-st.title('Welcome to Seans App for the Sec460 Final.')
+st.title('Welcome to Seans App for the Sec460 Final!')
